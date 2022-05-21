@@ -18,19 +18,20 @@
                 <a class="navbar-brand" href="index.php">HOME</a>
             </div>
             <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php">Admin Login</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown">My Profile </a> 
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item">View Profile</a>
+                        <a class="dropdown-item">Edit Profile</a>
+                        <a class="dropdown-item">Change Password</a>
+                    </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php">User Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="signup.php">User Register</a>
-                </li>
+                <li class="nav-item"><a class="nav-link" href="">Logout</a></li>
             </ul>
         </div>
     </nav><br><br>
-   
+
+
 
 </body>
 </html>
