@@ -35,27 +35,27 @@
             <center><h3>User Registration Form </h3></center>
             <form action="Register.php" class="form-layout"method="post">
                 <div class="form-group">
-                    <label for="name">First Name</label>
+                    <label for="fname">First Name</label>
                     <input type="text" name="firstname" class="form-control" required>
                 </div>
                 <div class="form-group">
-                    <label for="name">Last Name</label>
+                    <label for="lname">Last Name</label>
                     <input type="text" name="lastname" class="form-control" required>
                 </div>
                 <div class="form-group">
-                    <label for="name">E-Mail</label>
+                    <label for="email">E-Mail</label>
                     <input type="text" name="email" class="form-control" required>
                 </div>
                 <div class="form-group">
-                    <label for="name">Password</label>
+                    <label for="password">Password</label>
                     <input type="password" name="password" class="form-control" required>
                 </div>
                 <div class="form-group">
-                    <label for="name">Mobile Number</label>
+                    <label for="mobilenumber">Mobile Number</label>
                     <input type="text" name="mobilenumber" class="form-control" required>
                 </div>
                 <div class="form-group">
-                    <label for="name">Address</label>
+                    <label for="address">Address</label>
                     <textarea rows="3" cols="40" class="form-control" name="address" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Register</button>
