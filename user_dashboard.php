@@ -1,3 +1,8 @@
+<?php
+    session_start();
+?>    
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,6 +22,9 @@
             <div class="navbar-header">
                 <a class="navbar-brand" href="index.php">HOME</a>
             </div>
+            <span>
+                <strong>Welcome <?php echo $_SESSION['firstname'];?></strong>
+            </span>
             <ul class="nav navbar-nav navbar-right">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown">My Profile </a> 
