@@ -68,7 +68,7 @@
                         {
                             if ($row['password'] == $_POST['password'])
                             {
-                                $_SESSION['name'] = $row['name'];
+                                $_SESSION['firstname'] = $row['firstname'];
                                 $_SESSION['email'] = $row['email'];
                                 header("Location:user_dashboard.php");
                             }
