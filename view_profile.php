@@ -59,9 +59,9 @@
         </div>
     </nav><br><br>
 
-    <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
             <form>
                 <div class="form-group">
                     <label>Name: </label>
@@ -80,9 +80,10 @@
                     <textarea rows="3" cols="40" disable=""><?php echo $address; ?> </textarea>
                 </div>
             </form>
+            </div>
         </div>
-        <div class="col-md-4"></div>
     </div>
+    
 
 </body>
 </html>

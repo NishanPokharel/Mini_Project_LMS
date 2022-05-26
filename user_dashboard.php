@@ -25,11 +25,13 @@
             <span>
                 <strong>Welcome <?php echo $_SESSION['firstname'];?></strong>
             </span>
+            <span>
+                <strong>Email: <?php echo $_SESSION['email'];?></strong>
+            </span>
+
             <ul class="nav navbar-nav navbar-right">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown">My Profile </a> 
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item">View Profile</a>
                         <a class="dropdown-item">Edit Profile</a>
                         <a class="dropdown-item">Change Password</a>
                     </div>
