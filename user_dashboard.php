@@ -2,7 +2,7 @@
     session_start();
 ?>    
 
-
+<!-- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,18 +30,63 @@
             </span>
 
             <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown">My Profile </a> 
-                        <a class="dropdown-item">Edit Profile</a>
-                        <a class="dropdown-item">Change Password</a>
-                    </div>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="">Logout</a></li>
-            </ul>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown">My Profile</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="view_profile.php">View Profile</a>
+						<a class="dropdown-item" href="edit_profile.php"> Edit Profile</a>
+						<a class="dropdown-item" href="change_password.php">Change Password</a>
+					</div>
+				</li>
+				<li class="nav-item"><a class="nav-link" href="logout.php">Logout</a></li>
+			</ul>
         </div>
     </nav><br><br>
 
 
 
 </body>
+</html> -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>User Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+  <body>
+    
+  <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.php">HOME</a>
+            </div>
+            <span>
+                <strong>Welcome <?php echo $_SESSION['firstname'];?></strong>
+            </span>
+            <span>
+                <strong>Email: <?php echo $_SESSION['email'];?></strong>
+            </span>
+            <ul class="nav navbar-nav navbar-right">
+				<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            My Profile
+          </a>
+					<div class="dropdown-menu" >
+						<a class="dropdown-item" href="view_profile.php">View Profile</a>
+						<a class="dropdown-item" href="edit_profile.php"> Edit Profile</a>
+						<a class="dropdown-item" href="change_password.php">Change Password</a>
+					</div>
+				</li>
+				<li class="nav-item"><a class="nav-link" href="logout.php">Logout</a></li>
+			</ul>
+</div>
+
+</nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
 </html>
