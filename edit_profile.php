@@ -60,8 +60,8 @@
     </nav><br><br>
 
     <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
+    
+        <div class="col-md-6">
             <form action="update.php" method="post">
                 <div class="form-group">
                     <label>Name: </label>
@@ -82,7 +82,7 @@
                 <button type="submit" name="update" class="btn btn-primary">Update</button>
             </form>
         </div>
-        <div class="col-md-4"></div>
+
     </div>
 
 </body>
