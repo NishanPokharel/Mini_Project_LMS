@@ -30,9 +30,11 @@
             </span>
 
             <ul class="nav navbar-nav navbar-right">
+                
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" data-toggle="dropdown">My Profile</a>
-					<div class="dropdown-menu">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdown-id">My Profile</a>
+                    
+					<div class="dropdown-menu" aria-labelledby="dropdown-id">
 						<a class="dropdown-item" href="view_profile.php">View Profile</a>
 						<a class="dropdown-item" href="edit_profile.php"> Edit Profile</a>
 						<a class="dropdown-item" href="change_password.php">Change Password</a>
