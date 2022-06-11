@@ -31,7 +31,7 @@
         </div>
     </nav><br><br>
     <div class="row">
-        <div class="col-md-12" id="main-content">
+        <div class="col-md-6" id="main-content">
             <center><h3>User Registration Form </h3></center>
             <form action="Register.php" class="form-layout"method="post">
                 <div class="form-group">
