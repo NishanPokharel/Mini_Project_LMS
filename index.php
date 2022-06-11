@@ -23,6 +23,9 @@
                     <a class="nav-link" href="Admin/index.php">Admin Login</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="Admin/admin_register.php">Admin Register</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="index.php">User Login</a>
                 </li>
                 <li class="nav-item">
